@@ -16,7 +16,7 @@ public class FacebookHomePage {
 	@FindBy(xpath="//span[text()='Log out']")
 	private WebElement LogoutButton;
 
-	//constructor to implement the page objects
+	//constructor to implement the page objects in java
 	public FacebookHomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
