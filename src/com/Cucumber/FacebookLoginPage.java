@@ -30,8 +30,6 @@ public class FacebookLoginPage {
 	@Before
 	public void setUp() {
 		driver = new DriverFactory().getDriver();
-		driver.get("https://www.facebook.com/");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	@Given("^User navigates to facebook$")
