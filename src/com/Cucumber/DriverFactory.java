@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class DriverFactory {
 
     protected static WebDriver driver;
-
+    //constructor to initialize driver factory
     public DriverFactory() {
         initialize();
     }
