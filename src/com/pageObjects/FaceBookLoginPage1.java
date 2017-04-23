@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class FaceBookLoginPage1 {
 
 	public WebDriver driver;
-
+    //pageObjects
 	@FindBy(id = "email")
 	private WebElement EmailTextBox;
 
